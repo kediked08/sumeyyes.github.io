@@ -1,0 +1,141 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d880ac;
+  background-image: url(images/back.jpeg);
+  background-size: 110%;
+}
+
+.container {
+  height: 200px;
+  display: block;
+  align-items: left;
+  justify-content: center;
+}
+
+.item {
+  width: 10em;
+}
+
+h1 {
+  color: #f73737;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  color: #b60034;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#diary-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#entries {
+  margin-top: 2rem;
+  display: flex;
+}
+
+button {
+  padding: 7px 14px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 56, 86);
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+}
+
+
+#diary-textarea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* You can adjust this value for the height of the container */
+  background: linear-gradient(to bottom, #e3d9c8, #a1a1a1);
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #000;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#diary-textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#diary-textarea::placeholder {
+  color: #666;
+}
+
+#diary-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+}
+
